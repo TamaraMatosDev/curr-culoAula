@@ -1,0 +1,83 @@
+body{
+    font-family: 'roboto mono', sans-serif;
+    margin: 10px 100px;
+    
+   background-color: #606c38;
+}
+
+hr{
+  margin: 40px;
+}
+
+
+
+
+table {
+  display: inline-table;
+  font-family: 'Roboto Mono', Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  width: 1000px;
+ 
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+ 
+}
+
+table tr:nth-child(even){background-color: #b1a7a6;}
+
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #dda15e;
+  color: white;
+}
+
+#button{
+  display: inline-flex;
+  margin-top: 20px;
+  margin-right: 2px;
+}
+#aa{
+  background-color: #dda15e;
+}
+
+#iconegit{
+  margin-top: 5px;
+}
+#portfolio{
+  content: 400px;
+}
+
+#buttonIframe{
+  margin-right: 60px;
+}
+a{
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-family: "roboto mono", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+a:hover{
+  transform: scale(1.06);
+}
+
+a::before{
+  content: "";
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+}
+
