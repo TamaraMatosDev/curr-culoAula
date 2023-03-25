@@ -34,17 +34,18 @@ table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #dda15e;
-  color: white;
+  background-color: #fefae0;
+  color: black;
 }
 
 #button{
   display: inline-flex;
   margin-top: 20px;
-  margin-right: 2px;
+  margin-right: 5px;
 }
 #aa{
-  background-color: #dda15e;
+  background-color: #fefae0;
+  color: black;
 }
 
 #iconegit{
