@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+
+    
+    
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Currículo </title>
+    <link rel="icon" type="image/jpg" href="assets/img/icons8-meu-computador-100.png" />
+</head>
+<body>
+    <form id="form" name="formFree" action=""> 
+      <fieldset>
+        Nome* <input id = 1 type="text" name="nome"> <br>
+        sobrenome* <input id = 2  type="text" name="sobrenome"><br>
+        Telefone* <input id = 3  type="tel" name="telefone" maxlength="15" onkeyup="handlePhone(event)" /> <br>
+        E-mail* <input id = 4  type="text" name="email" onblur="validacaoEmail(formFree.email)"  maxlength="60" size='65'> <div id="validacao"></div> 
+        Mensagem* <input id = 5  type="text" name="mensagem" maxlength="500"  size="65"cols="35" rows="8"> <br>
+        Língua 
+          <select name="lingua">
+            <option value="">Língua aplicada no serviço</option>
+            <option value="ingles">Inglês</option>
+            <option value="espanhhol">Espanhol</option>
+            <option value="portugues">Português(pt-BR)</option>
+          </select> <br>
+      Protótipo <br> 
+        (JPEG,PNG,DOC,DOCX ou PDF) <br>
+        <input type="file" name="prototipo" required accept="image/jpeg, image/png, aplication/pdf, aplication/doc, aplication/docx"> <br>
+      Linguagem de programação 
+        <select name="linguagem" id="">
+          <option value="JavaScript">JavaScript</option>
+          <option value="C">C</option>
+          <option value="PHP">PHP</option>
+        </select> <br>
+        Banco de dados: <br>
+          <input type="radio" name="opcoesBD" value="MySQL">MySQL <br> 
+          <input type="radio" name="opcoesBD" value="Postgresql">Postgresql <br>
+        Turno para Reuniões: <br>
+          <input type="checkbox" name="reunioes" value="manha"> Manhã <br>
+          <input type="checkbox" name="reunioes" value="tarde"> Tarde <br>
+          <input type="checkbox" name="reunioes" value="noite"> Noite <br>
+        Horário Sugerido para reuniões: <input type="time"> <br>
+        Data Prevista para entrega: <input type="date"> <br>
+
+        <br> * Campos Obrigarios <br> <br>
+
+        <input id="btn_envia" type="submit" name="btn_envia" value="Enviar" onclick="submeterForm()">
+        <input id="btn_limpa" type="button" name="btn_limpa" value="Limpar" onclick="limparCampos()">
+      </fieldset>
+    </form>
+    
+    
+
+    
+      
+    <script lang="JavaScript" src="../js.js"></script>
+</body>
+</html>

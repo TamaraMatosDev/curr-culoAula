@@ -1,16 +1,16 @@
 body{
     font-family: 'roboto mono', sans-serif;
     margin: 10px 100px;
-    
-   background-color: #606c38;
+   background-color: #011F45;
+   color: #ddd;
 }
 
 hr{
   margin: 40px;
 }
-
-
-
+h1{
+  color: #ddd;
+}
 
 table {
   display: inline-table;
@@ -45,7 +45,7 @@ table th {
 }
 #aa{
   background-color: #fefae0;
-  color: black;
+  color: #011F45;
 }
 
 #iconegit{
@@ -82,3 +82,10 @@ a::before{
   margin-right: 15px;
 }
 
+fieldset{
+  margin-left: 350px;
+  width: 400px;
+}
+#btn_limpa, #btn_envia{
+  margin-left: 100px;
+}
